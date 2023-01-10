@@ -1,10 +1,12 @@
 import { createGlobalStyle } from "styled-components";
 import { mixinCss } from "./mixin";
 import { resetCss } from "./reset";
+import { fontsCss } from "./web-fonts";
 
 export default createGlobalStyle`
   ${resetCss}
   ${mixinCss}
+  ${fontsCss}
   
   a {
     text-decoration: none;
